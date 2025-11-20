@@ -1,51 +1,31 @@
-Task Management App
+# Task Management App
 
-A simple and clean Flutter-based To-Do application that allows users to manage daily tasks with ease. The app uses SharedPreferences for local persistent storage, ensuring that tasks remain saved even after the app is closed.
+A simple and clean **Flutter-based To-Do application** that helps users manage daily tasks efficiently.  
+The app uses **SharedPreferences** for persistent local storage, ensuring tasks remain saved even after restarting the app.
 
-✨ Features
+---
 
-➕ Add Tasks using a user-friendly dialog box
+## ✨ Features
 
-📋 View All Tasks in a scrollable list
+- ➕ Add new tasks using a popup dialog  
+- 📋 View tasks in a scrollable list  
+- 🗑 Delete tasks instantly  
+- 💾 Persistent storage using SharedPreferences  
+- 📱 Lightweight and simple UI
 
-🗑 Delete Tasks instantly with a single tap
+---
 
-💾 Persistent Storage using SharedPreferences
+## 📂 Tech Stack
 
-📱 Lightweight & Simple UI
+- **Flutter (Dart)**
+- **SharedPreferences**
+- **Material Design**
 
-📂 Tech Stack
+---
 
-Flutter (Dart)
+## 🚀 How to Run the Project
 
-SharedPreferences package for persistent local storage
-
-Material Design UI
-
-How to Run the Project
-
-Clone the Repository
-
-git clone https://github.com/Hassnain-Idrees/To-do-App.git
-cd To-do-App
-
-
-Install Dependencies
-
-flutter pub get
-
-
-Run the App
-
-flutter run
-
-
-📘 Future Improvements
-
-Task editing functionality
-
-Mark tasks as completed
-
-Add categories or filters
-
-Dark mode support
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Hassnain-Idrees/To-do-App.git
+   cd To-do-App
